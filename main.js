@@ -5,7 +5,7 @@ let cantidad = document.getElementById('cantidad');
 let boton= document.getElementById('generar');
 let contrasena= document.getElementById('contrasena');
 
-const caracteres= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+const caracteres= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
 
 
 
@@ -39,7 +39,7 @@ function generar (){
 
 
 //let texto = 'texto';
-//console.log(typeof texto);
+//console.log(typeof texto);     
 
 
 
