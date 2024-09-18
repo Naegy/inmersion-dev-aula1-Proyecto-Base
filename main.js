@@ -18,21 +18,26 @@ function generar (){
     let password='';        
 
     if(numerodigitado<8){
-        alert("Eror Cantidad debe ser mayor a 8 ");
-     
+        alert("Atención Contraseña demasiado debil");
+        return;
+        
       }
       for(let i=0; i<numerodigitado;i++)  // revisar como funciona i++ vs i+1
         {
            let caracterandom=caracteres[Math.floor (Math.random() * caracteres.length)];    //lenght toda lalongitud de caracteres
              // console.log(caracterandom);
 
-                password+=caracterandom;    //+= uso concatena y asigna valor
+                password+=caracterandom; 
+                   //+= uso concatena y asigna valor
+
+                  
 
         }
               //prueba de que genera password
        // console.log('Password Generada:'+ password);
-       
+    
        contrasena.value = password;
+       
 
           
 
@@ -40,9 +45,10 @@ function generar (){
 
 
 function limpiar (){
-
-     
+  
      contrasena.value = "";
+     cantidad.value="";
+
 
  }
 
