@@ -30,22 +30,19 @@ function generar (){
                 password+=caracterandom; 
                    //+= uso concatena y asigna valor
 
-                  
-
         }
               //prueba de que genera password
        // console.log('Password Generada:'+ password);
+
+       alert("Generando Contraseña Fuerte");
     
        contrasena.value = password;
-       
-
           
-
 }
 
 
 function limpiar (){
-  
+
      contrasena.value = "";
      cantidad.value="";
 
