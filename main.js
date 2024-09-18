@@ -4,6 +4,7 @@
 let cantidad = document.getElementById('cantidad');
 let boton= document.getElementById('generar');
 let contrasena= document.getElementById('contrasena');
+let botonlimpiar= document.getElementById('limpiar');
 
 const caracteres= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
 
@@ -32,9 +33,26 @@ function generar (){
        // console.log('Password Generada:'+ password);
        
        contrasena.value = password;
-       
+
+          
 
 }
+
+
+function limpiar (){
+
+     
+     contrasena.value = "";
+
+ }
+
+
+
+
+
+
+
+
 
 
 
